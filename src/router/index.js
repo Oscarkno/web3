@@ -38,6 +38,8 @@ const routes = [{
 
 
 const router = new VueRouter({
+    mode: "history",
+    base: '/web3/',
     routes
 })
 
